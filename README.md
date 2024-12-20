@@ -32,3 +32,7 @@ To solve the lab, perform a cross-site scripting attack that bypasses the firewa
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-15%2014-54-58.png)
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-15%2014-58-11.png)
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-15%2015-12-50.png)
+### Lab 10) https://portswigger.net/web-security/os-command-injection/lab-blind-time-delays
+To solve the lab, exploit the blind OS command injection vulnerability to cause a 10 second delay.
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2000-41-04.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2000-25-56.png)
