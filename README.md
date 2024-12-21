@@ -61,4 +61,9 @@ To solve the lab, upload a basic PHP web shell, then use it to exfiltrate the co
 This lab is vulnerable to server-side template injection due to the way it unsafely uses a Tornado template. To solve the lab, review the Tornado documentation to discover how to execute arbitrary code, then delete the morale.txt file from Carlos's home directory.
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2011-17-13.png)
 
-### Lab 15) 
+### Lab 15) https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic
+
+This lab is vulnerable to server-side template injection due to the unsafe construction of an ERB template.
+
+To solve the lab, review the ERB documentation to find out how to execute arbitrary code, then delete the morale.txt file from Carlos's home directory.
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2011-55-18.png)
