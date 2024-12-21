@@ -44,3 +44,10 @@ To solve the lab, exploit the blind OS command injection vulnerability to cause 
 The application serves the images for the product catalog from this location. You can redirect the output from the injected command to a file in this folder, and then use the image loading URL to retrieve the contents of the file.
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2001-12-47.png)
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2001-12-25.png)
+
+### Lab 12)  https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-path-traversal
+![im1]()
+![im1]()
+### Lab 13)  https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-extension-blacklist-bypass
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2004-19-55.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2004-16-56.png)
