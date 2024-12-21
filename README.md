@@ -33,6 +33,16 @@ To solve the lab, perform a cross-site scripting attack that bypasses the firewa
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-15%2014-58-11.png)
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-15%2015-12-50.png)
 
+### Lab 7)   https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-request-method
+This lab's email change functionality is vulnerable to CSRF. It attempts to block CSRF attacks, but only applies defenses to certain types of requests.
+
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2013-37-09.png)
+
+when changed request method
+
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2013-37-21.png)
+### Lab 8) 
+
 ### Lab 10) https://portswigger.net/web-security/os-command-injection/lab-blind-time-delays
 
 To solve the lab, exploit the blind OS command injection vulnerability to cause a 10 second delay.
