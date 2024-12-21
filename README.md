@@ -38,10 +38,19 @@ This lab's email change functionality is vulnerable to CSRF. It attempts to bloc
 
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2013-37-09.png)
 
-when changed request method
+when changed request method)
 
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2013-37-21.png)
-### Lab 8) 
+
+### Lab 8) https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-token-being-present
+
+This lab's email change functionality is vulnerable to CSRF.
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2013-59-44.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-04-39.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-09-03.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-08-31.png)
+
+### Lab 9)
 
 ### Lab 10) https://portswigger.net/web-security/os-command-injection/lab-blind-time-delays
 
