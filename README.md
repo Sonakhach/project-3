@@ -50,7 +50,12 @@ This lab's email change functionality is vulnerable to CSRF.
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-09-03.png)
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-08-31.png)
 
-### Lab 9)
+### Lab 9)   https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-not-tied-to-user-session
+This lab's email change functionality is vulnerable to CSRF. It uses tokens to try to prevent CSRF attacks, but they aren't integrated into the site's session handling system.
+
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-35-28.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-36-39.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-36-46.png)
 
 ### Lab 10) https://portswigger.net/web-security/os-command-injection/lab-blind-time-delays
 
