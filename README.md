@@ -52,6 +52,10 @@ This lab's email change functionality is vulnerable to CSRF.
 
 ### Lab 9)   https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-not-tied-to-user-session
 This lab's email change functionality is vulnerable to CSRF. It uses tokens to try to prevent CSRF attacks, but they aren't integrated into the site's session handling system.
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-22%2011-21-07.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-22%2011-13-28.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-22%2011-19-17.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-22%2011-19-46.png)
 
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-35-28.png)
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2014-36-39.png)
