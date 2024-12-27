@@ -98,7 +98,7 @@ To solve the lab, review the ERB documentation to find out how to execute arbitr
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2011-55-18.png)
 
 
-## Using **searchsploit** instead of exploitdb to look for  **CVEs** in **metasploitable machine. Find location of **metaspoit** scripts in your linux machine, open the code and read it. **
+## Using **searchsploit** instead of exploitdb to look for  **CVEs** in **metasploitable** machine. Find location of **metaspoit** scripts in your linux machine, open the code and read it.
 
 **1.What is the Common Vulnerabilities and Exposures (CVE) Glossary**
 
@@ -113,12 +113,16 @@ Included in the Exploit Database repository on GitHub is “searchsploit”, a c
 Since we are using GNOME build of Kali Linux, therefore, the “exploitdb” package is already included by default, all we need to do, open the terminal and just type “searchsploit” and press Enter. You will welcome by its help screen.
 
 At first need to download if you don’t have it
+
 ```
 sudo apt install exploitdb
+
 ``
 Then update the database
+
 ```
 searchsploit -u
+
 ```
 
 **4. Metasploit Framework**
