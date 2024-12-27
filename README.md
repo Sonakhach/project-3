@@ -117,7 +117,7 @@ At first need to download if you don’t have it
 ```
 sudo apt install exploitdb
 
-``
+```
 Then update the database
 
 ```
@@ -137,6 +137,11 @@ The Metasploit Framework is a Ruby-based, modular penetration testing platform t
 
 **Scanning services and version of metasploiable**
 
+**We will use version of ftp server for searching vulnerabilities.**
+
 **using –m options enable “copy to directory/folder parameter” as this option provides the same information as above related to the exploit, as well as copy the exploit in your current working directory.**
+
+To read about exploit we can use the following command
+
 
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-26_13_10_39.png)
