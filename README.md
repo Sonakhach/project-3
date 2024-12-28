@@ -1,4 +1,13 @@
 # project-3
+Presentation and demonstration of the tasks defined before the project
+10 + labs from PortSwigger academy using Burp Suite
+Tests on a real website (only in legal and controller way) using Burp Suite
+Identifying which tool is needed for a task, and writing it as part of documentation, for example - task 1 required me to intercept a request, and send it to repeater because
+Basics of Ruby
+Using metasploit modules to break into metasploitable, tryhackme machines, vulnhub machines
+Using msvenom to generate payloads and obfuscate them
+Using searchsploit instead of exploitdb to look for  CVEs
+
 ## Post Swigger Labs
 ### Lab 1)  https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-non-oracle
 
