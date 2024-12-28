@@ -124,7 +124,9 @@ https://github.com/Sonakhach/project-3/blob/main/reverse_shell_oop.rb
 **Explanation of OOP Concepts:**
 
 Class: The ReverseShell class encapsulates the properties (@ip, @port) and behaviors (connect method) of the reverse shell.
+
 Object: An instance of the ReverseShell class is created (shell = ReverseShell.new(ip, port)).
+
 Encapsulation: The logic and data of the reverse shell are bundled into the ReverseShell class.
 
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-28%2018-05-01.png)
