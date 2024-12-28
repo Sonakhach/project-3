@@ -105,9 +105,29 @@ https://github.com/Sonakhach/project-3/blob/main/revers_shell.rb
 
 A reverse shell attack is a type of cyberattack where a threat actor establishes a connection from a target machine (the victim's) to their machine. Reverse shell attacks are often executed via TCP and, in rare cases, ICMP or UDP. The goal of a reverse shell attack is to provide the attacker with unauthorized remote access to redirect outgoing connections from the network of the remote host (the victim). 
 
+**On the attacker's machine, use a tool like Netcat to listen for incoming connections**
+```
+nc -lvp 4444
+```
+**Execute the Ruby script on the target machine**
+
+```
+ruby reverse_shell.rb
+```
+
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-28%2012-55-29.png)
 
 ## Write script in ruby which uses Classes (basics of OOP, explain)
+
+https://github.com/Sonakhach/project-3/blob/main/reverse_shell_oop.rb
+
+**Explanation of OOP Concepts:**
+
+Class: The ReverseShell class encapsulates the properties (@ip, @port) and behaviors (connect method) of the reverse shell.
+Object: An instance of the ReverseShell class is created (shell = ReverseShell.new(ip, port)).
+Encapsulation: The logic and data of the reverse shell are bundled into the ReverseShell class.
+
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-28%2018-05-01.png)
 
 ## Using **searchsploit** instead of exploitdb to look for  **CVEs** in **metasploitable** machine. Find location of **metaspoit** scripts in your linux machine, open the code and read it.
 
