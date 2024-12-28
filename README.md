@@ -179,7 +179,7 @@ To read about exploit we can use the following command
 
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-26_13_10_39.png)
 
-## Using metasploit modules to break into (Exploit) metasploitable (at least 3 modules) 
+## Using metasploit modules to break into (Exploit) metasploitable 
 
  1. Exploit vsftpd 2.3.4 Backdoor:
     
@@ -194,3 +194,22 @@ exploit
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-28_01_54_55.png)
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-28_01_54_32.png)
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-28_02_01_10.png)
+
+##  After, try to write your own module, it doesn't have to do anything special, it just needs to load in msfconsole
+https://github.com/Sonakhach/project-3/blob/main/my_test_module_for_metasploitable_mashin.rb
+**Create the Module File: Create a Ruby file in the directory**
+
+```
+nano ~/.msf4/modules/exploits/custom/my_test_module.rb
+```
+If you want your module to do something meaningful, add a simple port-scanning logic to check if the target port is open:
+
+**Open msfconsole, reload the modules to include the custom one, load your custom module**
+```
+reload_all
+use exploits/custom/my_test_module
+set RHOST <target_ip>
+set RPORT 1234
+run
+```
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-28_11_47_15.png)
