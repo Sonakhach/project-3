@@ -196,7 +196,11 @@ exploit
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot_2024-12-28_02_01_10.png)
 
 ##  After, try to write your own module, it doesn't have to do anything special, it just needs to load in msfconsole
+
 https://github.com/Sonakhach/project-3/blob/main/my_test_module_for_metasploitable_mashin.rb
+
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-28%2021-36-02.png)
+
 **Create the Module File: Create a Ruby file in the directory**
 
 ```
