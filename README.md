@@ -97,6 +97,15 @@ This lab is vulnerable to server-side template injection due to the unsafe const
 To solve the lab, review the ERB documentation to find out how to execute arbitrary code, then delete the morale.txt file from Carlos's home directory.
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2011-55-18.png)
 
+## Write a reverse shell in Ruby
+
+**What is reverse shell?**
+
+A reverse shell attack is a type of cyberattack where a threat actor establishes a connection from a target machine (the victim's) to their machine. Reverse shell attacks are often executed via TCP and, in rare cases, ICMP or UDP. The goal of a reverse shell attack is to provide the attacker with unauthorized remote access to redirect outgoing connections from the network of the remote host (the victim). 
+
+![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-28%2012-55-29.png)
+
+## Write script in ruby which uses Classes (basics of OOP, explain)
 
 ## Using **searchsploit** instead of exploitdb to look for  **CVEs** in **metasploitable** machine. Find location of **metaspoit** scripts in your linux machine, open the code and read it.
 
