@@ -1,4 +1,4 @@
-# project-3
+# Mastering Burp Suite and Metasploit (project-3)
 Presentation and demonstration of the tasks defined before the project
 10 + labs from PortSwigger academy using Burp Suite
 Tests on a real website (only in legal and controller way) using Burp Suite
