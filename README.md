@@ -98,7 +98,7 @@ To solve the lab, review the ERB documentation to find out how to execute arbitr
 ![im1](https://github.com/Sonakhach/project-3/blob/main/Screenshot%20from%202024-12-21%2011-55-18.png)
 
 ## Write a reverse shell in Ruby
-
+https://github.com/Sonakhach/project-3/blob/main/revers_shell.rb
 **What is reverse shell?**
 
 A reverse shell attack is a type of cyberattack where a threat actor establishes a connection from a target machine (the victim's) to their machine. Reverse shell attacks are often executed via TCP and, in rare cases, ICMP or UDP. The goal of a reverse shell attack is to provide the attacker with unauthorized remote access to redirect outgoing connections from the network of the remote host (the victim). 
